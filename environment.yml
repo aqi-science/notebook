@@ -12,8 +12,13 @@ dependencies:
   - rasterio
   - scipy
   - cartopy
-  - xarray
   - openblas==0.2.19
-  - netcdf4==1.5.1
-
-
+  - zipfile
+  - io
+  - requests
+  - urllib
+  - bs4
+  - pip
+  - pip:
+    - beautifulsoup4 # parse US EPA website
+    - bs4
