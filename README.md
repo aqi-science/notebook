@@ -1,31 +1,46 @@
-# EDS220_Fall2021_FinalProjInfo
-### Information needed for HW3 and final project for EDS 220, Fall 2021
+# EDS220 Fall2021 Final Project and HW3
 
-This repository contains useful template information for working on assignments for EDS 220 Remote Sensing and Environmental Data at UC Santa Barbara (Fall 2021 quarter). 
+## Analyzing Air Quality Trends in the US with EPA AQI Data
 
-Contents:
-- HW3_template.ipynb: Template Jupyter notebook for use in Homework 3 and final project
-- environment.yml: Template environment file for use in creating Binder environment for running Jupyter notebook
+#### Student Authors: Grace Lewin, Felicia Cruz, & Steven Cognac
 
-Information for Homework 3:
-- Due date = **Friday, November 19**
-- Deliverables:
-   - Completed Jupyter notebook template appropriate for your group 
-   - Any necessary data or supporting files included in the repo
-   - README file edited to be appropriate for your project
+#### Due: November 19, 2021
+
+## Motivation and Project Goal
+This final assignment is a student led, data intensive analysis on a dataset our choosing.  Air quality serves as an important indicator of human health and the environment. Under the Clean Air Act, U.S. the Environmental Protection Agency (EPA) established National Ambient Air Quality Standards (NAAQS) for six common air pollutants: ozone, particulate matter (PM2.5 and PM10), sulfur dioxide, carbon monoxide, and nitrogen dioxide. Combined, these pollutants form the U.S. Air Quality Index (AQI) for reporting air quality.  Additional data on NAAQS and source data can be found at here at:
+- https://www.epa.gov/criteria-air-pollutants/naaqs-table
+- https://aqs.epa.gov/aqsweb/airdata/download_files.html#AQI
+
+The purpose of this project is to assess how air quality in the United States has changed over time from 1980 to 2020. We will use daily Air Quality Index (AQI) data by US county and metropolitan areas for our analysis. This data is made available by the US EPA and is freely accessible. 
+
+## Intended Purpose and Important Concepts
+This project is intended for educational purposes. Student authors practiced the following skills and commands:
+- dataset searching
+- html parsing
+- index joins
+- data subsetting
+- setting coordinate reference systems
+- calculating rolling means
+- time series plotting
 
 
-Information for final project:
-- Presentation dates: **Nov 22; Nov 29; Dec 1**
-- Final writeup hand-in date: **Dec 8**
-- Deliverables (for in-class presentation):
-  - Jupyter notebook edited to reflect instructor feedback
-  - Empty notebook (all code commands removed; comments and markdown retained) to facilitate in-class code-alongs
-  - Binder environment compiled to allow others to run code easily
-  - Group-led code-along exercise on assigned presentation date
+## Setup
+The following **packages** were utilized during this analysis:
 
-- Deliverables (for final writeup):
-  - Jupyter notebook, supporting data files, Binder environment, and README in repo
-  - Edits reflecting student and instructor feedback can be made until due date
+Data Analysis
+- pandas
+- numpy
+- matplotlib
+- geopandas
+- shapely
+- contextily
+
+Data Download
+- datetime
+- bs4
+- zipfile
+- io
+- urllib
+- requests
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/aqi-science/notebook/main)
