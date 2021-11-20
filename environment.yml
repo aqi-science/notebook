@@ -18,7 +18,8 @@ dependencies:
   - requests
   - urllib
   - bs4
+  - beautifulsoup4
   - pip
   - pip:
-    - beautifulsoup4 # parse US EPA website
+    - beautifulsoup4
     - bs4
