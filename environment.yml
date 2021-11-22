@@ -13,13 +13,8 @@ dependencies:
   - scipy
   - cartopy
   - openblas==0.2.19
-  - zipfile
-  - io
   - requests
-  - urllib
   - bs4
   - beautifulsoup4
   - pip
-  - pip:
-    - beautifulsoup4
-    - bs4
+
