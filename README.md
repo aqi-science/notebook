@@ -1,10 +1,8 @@
-# EDS220 Fall2021 Final Project and HW3
+# EDS220 Fall2021 Final Project
 
 ## Analyzing Air Quality Trends in the US with EPA AQI Data
 
 #### Student Authors: Grace Lewin, Felicia Cruz, & Steven Cognac
-
-#### Due: November 19, 2021
 
 ## Motivation and Project Goal
 This final assignment is a student led, data intensive analysis on a dataset our choosing.  Air quality serves as an important indicator of human health and the environment. Under the Clean Air Act, U.S. the Environmental Protection Agency (EPA) established National Ambient Air Quality Standards (NAAQS) for six common air pollutants: ozone, particulate matter (PM2.5 and PM10), sulfur dioxide, carbon monoxide, and nitrogen dioxide. Combined, these pollutants form the U.S. Air Quality Index (AQI) for reporting air quality.  Additional data on NAAQS and source data can be found at here at:
